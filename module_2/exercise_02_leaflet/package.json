@@ -1,0 +1,18 @@
+{
+  "name": "exercise_02_leaflet",
+  "version": "1.0.0",
+  "description": "coord in map on leaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geolocation",
+    "coords"
+  ],
+  "author": "Carlos Talero J",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

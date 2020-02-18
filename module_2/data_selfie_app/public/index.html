@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>App data selfie with node.js</title>
+  </head>
+  <body>
+    <h1>Data Selfie App - Post the info from the client</h1>
+    <p>
+      latitude: <span id="latitude"></span>&deg;<br />
+      longitude: <span id="longitude"></span>&deg;
+    </p>
+    <div>
+      <a href="/">enter</a> | <a href="/logs">list</a>
+    </div>
+
+    <label for="whatsup">WhatsUp?</label>
+    <input id="whatsup" value="eating"/>
+    <button id="submit">submit</button>
+    <script src="sketch.js"></script>
+    
+  </body>
+</html>
